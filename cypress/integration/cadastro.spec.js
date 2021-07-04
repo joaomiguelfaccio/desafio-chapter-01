@@ -9,7 +9,7 @@ describe('Tela de Cadastro de Usuário', () => {
         cy.visit('');
 
         // E clico no botão de Sign In
-        cy.get('[class="login_does_not_exist"]').click();
+        cy.get('[class="login"]').click();
 
         // E informo um email válido
         cy.get('input#email_create').type(chance.email());

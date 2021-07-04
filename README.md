@@ -106,3 +106,7 @@ Utilizando o site automation practice, criar um novo projeto (do zero) e configu
 - [ ] Adicione a action para publicar o relatório do mochawesome
 - [x] ~~Lembre-se, para o resultado aparecer o arquivo do relatório deve ser index.html :)~~
 - [ ] Crie uma descrição de seu projeto no Github com imagem ou vídeos da execução, tecnologias, tags e aprendizados
+
+## Exemplo de screenshots e vídeos
+![exemplo_failed](https://user-images.githubusercontent.com/68667256/124394146-78098780-dcd4-11eb-93ed-86c82afb509d.png)
+https://github.com/joaomiguelfaccio/desafio-chapter-01/issues/2#issue-936504943

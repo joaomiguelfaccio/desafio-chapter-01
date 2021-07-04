@@ -37,8 +37,8 @@ jobs:
       # instalando as dependecias
       - run: npm install
       
-      # executar os testes usando o cucumber
-      - run: npm run cy:ful
+      # executar os testes usando o headless
+      - run: npm run cy:run
       
       # publicar relatorio em html
       - name: Deploy to GitHub Pages

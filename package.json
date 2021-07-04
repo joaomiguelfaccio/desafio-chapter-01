@@ -9,7 +9,8 @@
     "report:merge": "mochawesome-merge > index.json",
     "report:mocha": "marge index.json",
     "report:clean": "rm -rf mochawesome-report screenshots index.json",
-    "cy:full": "npx cypress run && npm run report:merge && npm run report:mocha"
+    "cy:full": "npx cypress run && npm run report:merge && npm run report:mocha",
+    "report:cc": "node cypress/reports/reports.js"
   },
   "keywords": [],
   "author": "",

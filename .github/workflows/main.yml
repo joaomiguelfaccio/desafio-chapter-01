@@ -40,6 +40,9 @@ jobs:
       # executar os testes usando o headless
       - run: npm run cy:run
       
+      # executando os comando para gerar relatorios
+      - run: npm run report:cc
+      
       # publicar relatorio em html
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4

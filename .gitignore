@@ -7,6 +7,9 @@ mochawesome-report
 # videos
 cypress/videos
 
+# screenshots
+screenshots
+
 # outros
 .DS_Store
 .vscode

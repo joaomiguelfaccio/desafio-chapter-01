@@ -55,4 +55,4 @@ jobs:
         with:
           token: ${{ github.token }}
           branch: gh-pages
-          folder: mochawesome-report
+          folder: cucumber-json

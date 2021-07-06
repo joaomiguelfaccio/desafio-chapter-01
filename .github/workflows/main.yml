@@ -43,6 +43,7 @@ jobs:
       
       # executar os testes usando o headless
       - run: npm run cy:run
+        continue-on-error: true
       
       # executando os comando para gerar relatorios
       - run: npm run report:merge
@@ -54,4 +55,4 @@ jobs:
         with:
           token: ${{ github.token }}
           branch: gh-pages
-          folder: cypress/reports
+          folder: mochawesome-report

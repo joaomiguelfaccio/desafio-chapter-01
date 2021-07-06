@@ -101,12 +101,15 @@ Utilizando o site automation practice, criar um novo projeto (do zero) e configu
 - [x] ~~Adicionar as configurações para gerar os arquivos do relatório~~
 - [x] ~~Adicionar os scripts para geração dos relatórios em html~~
 - [x] ~~Suba seu projeto no Github~~
-- [x] Configure as actions para executar os testes
-- [x] Habilite o GH Pages
-- [ ] Adicione a action para publicar o relatório do mochawesome
+- [x] ~~Configure as actions para executar os testes~~
+- [x] ~~Habilite o GH Pages~~
+- [X] ~~Adicione a action para publicar o relatório do mochawesome~~
 - [x] ~~Lembre-se, para o resultado aparecer o arquivo do relatório deve ser index.html :)~~
 - [x] ~~Crie uma descrição de seu projeto no Github com imagem ou vídeos da execução, tecnologias, tags e aprendizados~~
 
-## Exemplo de screenshots e vídeos
+## Exemplo de screenshots, Gif e vídeos da execução
 ![exemplo_failed](https://user-images.githubusercontent.com/68667256/124394146-78098780-dcd4-11eb-93ed-86c82afb509d.png)
+
+![cadastro spec js](https://user-images.githubusercontent.com/68667256/124528305-4250c580-ddde-11eb-817b-8cdbb35637c7.gif)
+### Clique no link abaixo para visualizar o vídeo da execução: 
 https://user-images.githubusercontent.com/68667256/124394218-d2a2e380-dcd4-11eb-9cee-1fd33dd3fbc2.mp4

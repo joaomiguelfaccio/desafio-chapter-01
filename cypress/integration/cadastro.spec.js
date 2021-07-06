@@ -46,13 +46,13 @@ describe('Tela de Cadastro de Usuário', () => {
         // E informo um segundo endereço válido
         cy.get('input#address2').type(chance.address());
         // E informo uma cidade válido
-        cy.get('input#city').type('Orlando');//chance.city());
+        cy.get('input#city').type(chance.city());
+        // E seleciona um país
+        cy.get('select#id_country').select('United States');
         // E seleciono um estado
         cy.get('select#id_state').select('Florida');
         // E informo um código postal válido
         cy.get('input#postcode').type(chance.zip());
-        // E confirma a seleção do pais
-        cy.get('select#id_country option:selected').should('have.text', 'United States');
         // E insiro informações complementares
         cy.get('textarea#other').type(chance.paragraph({ sentences: 1 }));
         // E informo um telefone válido
